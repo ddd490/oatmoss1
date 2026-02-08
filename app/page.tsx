@@ -233,14 +233,7 @@ export default function Home() {
                 </button>
               </Link>
 
-              <button
-                type="button"
-                className="w-full py-4 px-5 bg-[#1a1208] hover:bg-[#2a1f15] border-2 border-[#3d2e1f] hover:border-[#d4a574] rounded-lg transition-all duration-200 text-left group hover:translate-x-1"
-              >
-                <span className="pixel-font text-lg text-[#d4a574] group-hover:text-[#ffecd2] transition-colors flex items-center gap-3">
-                  <span>🎁</span> Gift Boxes
-                </span>
-              </button>
+
             </nav>
 
             <div className="mt-6 pt-4 border-t border-[#3d2e1f] text-center">
