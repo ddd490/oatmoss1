@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pixel font style */
+.pixel-font {
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-12px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Scanline overlay */
+.scanlines {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.18),
+    rgba(0, 0, 0, 0.18) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+/* Base body styling */
+body {
+  background-color: #0a0705;
+  color: #ffecd2;
+  overflow-x: hidden;
+}
